@@ -5,7 +5,7 @@ body {
 /****************   Nav Section **********************/
 nav {
 	color: white;
-  background-color: #5384f0;
+  background-color: #052a79;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 0;
@@ -30,8 +30,10 @@ footer {
 
 /*********** Splash Page ************************/
 header {
-  background: linear-gradient(10deg, #353869, #2563eb); 
-  color: white;                                        
+  background-image: url("/images/pond.gif");
+  background-size: cover;        /* fills the entire header */
+  background-position: center;   /* keeps it centered */
+  background-repeat: no-repeat;                                     
   padding: 4rem 2rem;                                  
   text-align: center;          
 }
@@ -364,5 +366,22 @@ nav a:hover {
   background-color: #353869;    
   color: #ffffff;                
   transform: translateY(-2px);   
+}
+
+.game-frame {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;   
+  margin: 0 auto;      
+  padding-top: 56.25%; 
+}
+
+.game-frame iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
 
