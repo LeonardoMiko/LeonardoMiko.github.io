@@ -242,7 +242,7 @@ textarea {
   background-size: cover;        
   background-position: center;   
   background-repeat: no-repeat; 
-  padding-bottom: 0;   
+  padding-bottom: 10px;   
 }
 
 .background {
