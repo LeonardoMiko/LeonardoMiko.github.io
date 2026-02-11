@@ -192,7 +192,9 @@ section a:hover {
 
 /**************   Contact Page   *****************/
 .one-col {
+  background-color: #052a7946;  
   max-width: 400px;
+  min-height: 69vh;
   margin: 0 auto;          
   padding: 2rem;
   display: flex;
@@ -201,7 +203,6 @@ section a:hover {
   justify-content: center; 
   align-items: center;     
   color: white;
-  background-color: #5384f0;
   font-family: Pixelify, fantasy;
   font-size: 20px;    
   border-radius: 6px;   
@@ -246,6 +247,18 @@ textarea {
 
 .background {
   background-image: url("/images/space.gif");
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -o-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  -ms-interpolation-mode: nearest-neighbor;
+  background-size: cover;        
+  background-position: center;   
+  background-repeat: no-repeat; 
+}
+
+.background2 {
+  background-image: url("/images/island.gif");
   image-rendering: pixelated;
   image-rendering: -moz-crisp-edges;
   image-rendering: -o-crisp-edges;
