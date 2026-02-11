@@ -29,10 +29,9 @@ nav {
 footer {
   display: flex;
   justify-content: center;
-  background-color: #ffffff;
+  background-color: #5384f0;
   color: #f9fafb;        
-  border: 5px #2563eb ;
-  padding: 1px;      
+  border: 5px #052a79 ;
 }
 
 /*********** Splash Page ************************/
@@ -92,11 +91,10 @@ header img {
 
 /************* Sections ********************/
 hr {
-  border: none;
-  height: 10px;
+  border: 2px solid #052a79;
+  margin: auto;
+  height: 15px;
   background-color: #052a79;
-  margin: 2rem 0;
-  border-radius: 2px;
 }
 
 section h3 {
@@ -110,6 +108,7 @@ section h3 {
   margin-bottom: 1rem;
   text-align: center;          
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  margin-top: 0;
 }
 
 
@@ -165,10 +164,10 @@ section a:hover {
 .card {
   height: 80%;
   width: 88%;
-  background-color: #2563eb;      
+  background-color: #2564eb24;      
   padding: 20px;                
   border-radius: 12px;             
-  box-shadow: 0 6px 10px #2563eb; 
+  box-shadow: 0 6px 10px #000000; 
   color: #ffffff;
 }
 
@@ -220,16 +219,37 @@ textarea {
 
 /**************   Stuff I added to make the website pretty   *****************/
 
+
 .horizontal-sections {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 3rem;               
-  margin: 2rem 0;
+  gap: 1.5rem;             
   align-items: start;       
-  padding: 0 1rem;          
+  padding: 0 1rem;         
   box-sizing: border-box;    
+  background-image: url("/images/garden.gif");
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -o-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  -ms-interpolation-mode: nearest-neighbor;
+  background-size: cover;        
+  background-position: center;   
+  background-repeat: no-repeat; 
+  padding-bottom: 0;   
 }
 
+.background {
+  background-image: url("/images/space.gif");
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -o-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  -ms-interpolation-mode: nearest-neighbor;
+  background-size: cover;        
+  background-position: center;   
+  background-repeat: no-repeat; 
+}
 
 .section-grid {
   display: flex;
@@ -273,6 +293,7 @@ textarea {
   font-weight: 700;
   color: #2563eb;
   font-size: 1rem;
+  justify-content: center;
 }
 
 .section-grid dd {
